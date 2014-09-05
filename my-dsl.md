@@ -2,15 +2,19 @@
 _What is the name of the language? Link the name to its webpage 
 (if appropriate)._
 
+   The name of the language is [Csound](http://www.csounds.com/).
 
 # Domain
 _Describe the language's domain in five words._
 
+   Modular and extensible audio programming.
 
 # Computational model
 _What is the underlying computational model of this language? To answer this 
 question, provide a high-level description (no more than 100 words) of the 
 computation that occurs when someone executes a program in this language._
+
+   Unit generators (also known as opcodes) use predefined arrays of values that describe waveforms of specific frequencies to define the sound. If the waveform is not predefined, the unit generator using the function for that waveform to determined the values.
 
 
 # DSL-ness
