@@ -49,6 +49,6 @@ Programmers can use an Ant script to automate the process of building large proj
 
 # Drawbacks
 _Identify one potential drawback of the DSL: what does a programmer or company 
-lose by using this DSL instead of general-purpose language?_
+lose by using this DSL instead of a general-purpose language?_
 
 Ant script has its own set syntax that's very different from a general-purpose language. Developers have to spend the extra time reading over Ant manuals to learn this new tool.
