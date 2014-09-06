@@ -25,6 +25,7 @@ I learned by looking at simple examples and manipulating different parameters to
 _We don't yet have a great definition of the term "computational model". 
 For now, try to come up with the clearest, most concise explanation of what 
 happens when a ContextFree program runs._
+
 When a ContextFree program runs, rules are executed in sequential order. The program adds basic modified shapes one at a time, until termination conditions are met.
 
 
