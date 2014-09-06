@@ -7,12 +7,12 @@ This programming language is for artists and programmer who want to make pattern
 
 ## What is easy to do in this language? Why is it easy?
 
-It's easy to draw patterns made of repeated simple shapes, such as fractals. Context Free have easy syntax for modularization as well as manipulating a defined shape through various transformation.
+It's easy to draw patterns made of repeated simple shapes, such as fractals. Context Free have easy syntax for modularization and a simple model for manipulating a defined shape through various transformation.
 
 
 ## What is hard to do in this language? Why is it hard?
 
-Drawing a complex shape that cannot be broken down into repeatable pieces is difficult. Shapes such as a stick figure or a word require many components that cannot be easily reused, so the program have to configure each one separately.
+Drawing a complex shape that cannot be broken down into repeatable pieces is difficult. Shapes such as a stick figure or a word require many components that cannot be easily reused, so the programmer has to configure each one separately.
 
 
 ## How did you learn how to program in this language?
@@ -31,5 +31,5 @@ When a ContextFree program runs, rules are executed in sequential order. The pro
 
 ## What do you think is interesting about the ContextFree program you wrote?
 
-My program is interesting in that the only shape it uses are circles, but leveraging several powerful tools in Context Free, I made an interesting and relatively complex image. I used infinite recursion to produce the pattern, making small modifications along the way to make it interesting. The program also contains random components, so it can generate many slightly different variations of the image.
+My program is interesting in that the only shape it uses is circles, but by leveraging several powerful tools in Context Free, I made an interesting and relatively complex image. I used infinite recursion to produce the pattern, making small modifications at each step to make it interesting. The program also contains random components, so it can generate many slightly different variations of the pattern.
 
