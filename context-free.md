@@ -2,6 +2,7 @@
 
 ##  Who is this programming language for?
 
+Anyone who wishes to design artwork using code.
 
 ## What is easy to do in this language? Why is it easy?
 
@@ -11,6 +12,8 @@
 
 ## How did you learn how to program in this language?
 
+I learn through examples. I went through many of the pieces of artwork 
+in the gallery and tried to learn from them.
 
 ## What is the underlying _computational model_ for this programming language? 
 _We don't yet have a great definition of the term "computational model". 
