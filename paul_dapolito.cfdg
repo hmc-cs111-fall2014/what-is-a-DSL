@@ -1,0 +1,14 @@
+startshape SpikedBall
+
+rule Spikes {
+	TRIANGLE [b 0]
+	CIRCLE [b 1]
+}
+
+rule SpikedTrident{
+	90 * {r 1 s .9} Spikes []
+}
+
+rule SpikedBall{
+	30 * {r 15} SpikedTrident []
+}
