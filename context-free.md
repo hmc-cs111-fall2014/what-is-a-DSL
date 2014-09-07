@@ -59,7 +59,7 @@ process is triggered by the `startshape` command.
 
 I think that the Context Free program I wrote is interesting because it
 incorporates many key features of Context Free: repetition, recursion, color,
-and random rule selection. Furthermore, he changing colors of the overlapping
+and random rule selection. Furthermore, the changing colors of the overlapping
 swirls help illustrate the order in which the swirls were drawn (as the
 lighter-colored parts are on top of the darker-colored parts). Finally, though
 it's certainly subjective, I think that the end result looks reasonably cool.
