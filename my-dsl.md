@@ -69,7 +69,7 @@ logistical details of how to connect to those machines.
 
 # Drawbacks
 _Identify one potential drawback of the DSL: what does a programmer or company 
-lose by using this DSL instead of general-purpose language?_
+lose by using this DSL instead of a general-purpose language?_
 
 Because Fabric is an internal DSL, using Fabric does not prevent the use of
 general-purpose Python. However, because Fabric abstracts away much of the
