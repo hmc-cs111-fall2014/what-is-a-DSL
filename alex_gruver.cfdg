@@ -1,6 +1,6 @@
-startshape test
+startshape final
 
-background { b -0.9 }
+background{b -.9}
 
 path Line1 {
 	MOVETO {x 0 y 0}
@@ -32,5 +32,15 @@ rule eye {
 rule test {
 	25 * {x 1 y 1 r 10} eye{}
 
+	
+}
+
+rule final {
+	
+
+	test {r 27 s .4 x 3 z 0}
+	SQUARE{hue 194 saturation .96 b .95 size 20 12 z -1 y 5.7}
+
+	20 * {y -.5 hue -2.5 } SQUARE{hue 79 saturation .96 b .7 size 20 .5  z -1}
 	
 }
