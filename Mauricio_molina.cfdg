@@ -1,0 +1,17 @@
+startshape tree
+background{b -1}
+
+rule tree 20{
+SQUARE{}
+tree{s .99 r 2 y .995 hue 20 sat 0.7 b 0.6 }
+}
+rule tree 8{
+SQUARE{}
+tree{s .99 r 2 y 3 flip 90}
+}
+rule tree 2{
+SQUARE{hue 20 sat 0.1 b 0.6 }
+tree{s .75 r 20 y .995 b .07 z -.07}
+tree{s .99 y .995 flip 90}
+tree{s .5 flip 90 r 45 y .995 b .07 z -.07}
+}
