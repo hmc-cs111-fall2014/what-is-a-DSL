@@ -31,11 +31,11 @@ and why?_
 
 Because Fabric is an internal DSL (as described below), it doesn't really have
 a concept of limited expressiveness. That said, Fabric (as opposed to its host
-language, Python) only provides a small handfull of functions, decorators, and
+language, Python) only provides a small handful of functions, decorators, and
 context managers which all explicitly relate to the configuration and
 execution of remote command execution via SSH. In that sense, then, Fabric is
 closer to the "purely" domain-specific end of Fowler's spectrum. In any case,
-Fabric commands are typically used in indepdendent "fabfiles," isolated from
+Fabric commands are typically used in independent "fabfiles," isolated from
 other Python code and run only via the fab tool, which makes Fabric scripts
 appear visibly distinct from standard Python programs.
 
