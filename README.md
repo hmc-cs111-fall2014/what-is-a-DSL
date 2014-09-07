@@ -99,11 +99,11 @@ might add to your partner's work?
 - [x] Identify a partner for the critique part of the assignment
 - [x] Read the [Assignment HOWTO]
 - [x] Read Fowler's [introduction to DSLs][Fowler]
-- [ ] Find a DSL
-- [ ] Describe your DSL's implementation and semantics in `my-dsl.md`
-- [ ] Write a ContextFree program in `firstname_lastname.cfdg`
-- [ ] Make and save a pretty picture in 
+- [x] Find a DSL
+- [x] Describe your DSL's implementation and semantics in `my-dsl.md`
+- [x] Write a ContextFree program in `firstname_lastname.cfdg`
+- [x] Make and save a pretty picture in 
 firstname_lastname_variant.png`
-- [ ] Answer the questions in `context-free.md`
+- [x] Answer the questions in `context-free.md`
 - [ ] Submit your work
 - [ ] Comment on your partner's work
