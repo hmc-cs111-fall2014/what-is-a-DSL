@@ -14,6 +14,7 @@ _What is the underlying computational model of this language? To answer this
 question, provide a high-level description (no more than 100 words) of the 
 computation that occurs when someone executes a program in this language._
 
+Ant is used to explicitly establish a build process and dependencies for Java applications. Build processes written in Ant specify named targets and their associated dependencies. Targets are composed of actions to be performed on specified paths, such as ```javac```, ```jar```, ```mkdir```, and ```delete``` (among others). Ant then establishes dependencies between different build targets and performs the specified actions in the order that satisfies these dependencies. This allows developers to easily control every step of the Java build process, from the initial directory setup, to the invocation of the Java compilier, to the creation of a Java executable (```jar```) file.
 
 
 # DSL-ness
