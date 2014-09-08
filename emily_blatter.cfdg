@@ -1,0 +1,26 @@
+startshape START 
+CF::Background = [hue 220 sat 1 b -0.5]
+CF::Tile=[[s 2 3 skew 0 10]] // tile is 2 wide, 3 high, skewed tiling
+CF::Symmetry=CF::p2, 0.5, 0.75 // symmetry has 180 rotation centred on (0.5,0.75)
+
+shape START
+{
+	CURVES [hue 125 b 0.8 sat 1 x 0.5 y 0.6 s 0.2]
+}
+
+shape CURVES {
+    CURVE [size 2]
+    CURVES [size 0.55 y 2.5 alpha -0.1 ]
+}
+
+shape CURVE
+rule
+{  
+    CIRCLE [ ]
+    CURVE [ size 0.97 y 0.5 r 1.0 alpha -.04 h .8]
+}
+rule 20
+{
+    SQUARE [ ]
+    CURVE [ size 0.97 y 0.5 r 1.0 alpha -.04 h 0.8]
+}
