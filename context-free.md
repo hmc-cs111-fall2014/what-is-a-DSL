@@ -2,7 +2,7 @@
 
 ##  Who is this programming language for?
 
-The ContextFree programming language is for artists to create particular pieces of art programatically. 
+The ContextFree programming language is for artists to create particular pieces of art programmatically. 
 
 ## What is easy to do in this language? Why is it easy?
 
@@ -29,4 +29,4 @@ In a ContextFree program, there is a notion of a shape which is defined by some 
 
 ## What do you think is interesting about the ContextFree program you wrote?
 
-I think the ContextFree program I wrote is interesting because of its relative simplicty when compared to the image it creates. In experimenting with ContextFree, I came across a way to create "spikes" by overlaying a circle in the center of a triangle. The circle covers all but the 3 points of the triangle, thus creating a spike-like image. I then learned about how to transform shapes in ContextFree, so I created a spiked trident using my original spiky shape. Taking this one step further, I was able to create a motion illusion by scaling and rotating the spiked trident about the origin of the image. I had always wondered how one would create an optical illusion programatically, and this experience with ContextFree was my first piece of understanding how to do so.
+I think the ContextFree program I wrote is interesting because of its relative simplicity when compared to the image it creates. In experimenting with ContextFree, I came across a way to create "spikes" by overlaying a circle in the center of a triangle. The circle covers all but the 3 points of the triangle, thus creating a spike-like image. I then learned about how to transform shapes in ContextFree, so I created a spiked trident using my original spiky shape. Taking this one step further, I was able to create a motion illusion by scaling and rotating the spiked trident about the origin of the image. I had always wondered how one would create an optical illusion programmatically, and this experience with ContextFree was my first piece of understanding how to do so.
