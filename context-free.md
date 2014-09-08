@@ -7,7 +7,7 @@ Honestly, I'm not sure. It's probably more useful for teaching grammar and rules
 
 ## What is easy to do in this language? Why is it easy?
 
-Recursive drawing is relatively easy, since rules lend themselves to being embedded.
+Recursive drawing is easy, since rules are made to be embedded. This means anything of a fractal nature should be straight forward.
 
 
 ## What is hard to do in this language? Why is it hard?
