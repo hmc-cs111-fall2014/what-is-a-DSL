@@ -54,8 +54,6 @@ rule HEART {
 
 rule LINE {
 	TRIANGLE [ s 1 30 y 0.26 ]
-	//MARK { }
-	//LINE { size 0.98 y 0.5 }
 }
 
 rule ARCL {
@@ -79,7 +77,13 @@ rule CURVE {
 
 rule BORDER {
 	CURVE {s 0.5 }
-	CURVE{s 0.4 hue 105}
-	BORDER {flip 90 y 3 s 0.94 }
+	CURVE{hue 70 sat 0.7 b 0.6 s 0.4 }
+	BORDER {flip 90 y 4 s 0.94 }
+}
+
+rule BORDER {
+	CURVE {s 0.4 }
+	CURVE{ hue 105 sat 0.7 b 0.6 s 0.4}
+	BORDER {flip 90 y 2 s 0.94 }
 }
 
