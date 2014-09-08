@@ -1,0 +1,123 @@
+startshape WELCOME
+background {hue 255 sat 4 b 0}
+
+rule WELCOME {
+	NAME { hue 358 sat 1 b 1 }
+	UNDERLINE {}
+	PRETTYPIC{s 2}
+}
+
+rule NAME {
+	//letters that compose my name!
+	 J { x 6}
+	E { x 24 }
+	A { x 42 }
+	N {x 60} 
+}
+
+rule J {
+	// top cap stroke
+	SHORTPEN { x -10 s 1 r -90 y 24 }
+	// top vertical stroke
+	SHORTPEN { x 6 y 1}
+	// bottom vertical stroke
+	ARCL { x 6  y 12 flip 180}
+	// endcaps 
+	ENDCAP {x -3 y 1}
+	ENDCAP{x 13 y 24}
+}
+
+rule E {
+	// side stroke
+	LONGPEN { }
+	// 3 horizontal strokes
+	LONGPEN { s 0.4 r -90 y 0 }
+	LONGPEN { s 0.4 r -90 y 12 }
+	LONGPEN { s 0.4 r -90 y 24 }
+	// endcaps
+	ENDCAP{x 9 y 24}
+	ENDCAP{x 9 y 12}
+	ENDCAP{x 9 y 0}
+}
+
+rule A {
+	//left stroke
+	LONGPEN {s 1.2 x 5 y 24  r 160  }
+	// right stroke
+	LONGPEN {s 1.2 x 6 y 24  r  -160 }
+	// middle stroke 
+	SHORTPEN{ x -10 r -90 y 12 }
+	// endcaps
+	ENDCAP{x 15.5 y -2}
+	ENDCAP{x -4.5 y -2} 
+}
+
+rule N  {
+	//l eft stroke 
+	LONGPEN{}
+	// middle stroke
+	LONGPEN { y 22  r  -150 }
+	// right stroke 
+	LONGPEN {x 12}
+	// endcaps 
+	ENDCAP{x 12 y 22} 
+}
+
+rule PRETTYPIC {
+	HAIR{ hue 120 sat 0.7 b 0.6 }
+	POOPBODY{ hue 40 sat 0.95 b 0.6 }
+}
+
+rule TOPBODY {
+	HAIR{}
+}
+rule POOPBODY {
+	//bottom
+	CIRCLE {x -0.5 }
+	CIRCLE {x -0.25 }
+	CIRCLE {x 0 }
+	CIRCLE {x 0.25}
+	CIRCLE {x 0.5}
+
+	// 2nd row
+	CIRCLE {x -0.2 y 0.5}
+	CIRCLE {x 0 y 0.5}
+	CIRCLE{x 0.2 y 0.5}
+
+	// 3rd row 
+	CIRCLE{ x 0 y 0.8}
+}
+
+rule HAIR {
+	ARCL {s 0.002 x -0.02  y 0.12 flip 90 }
+	ARCL {s 0.002  x -0.01 y 0.12 flip -90 }
+	ARCL {s 0.002 x 0.0  y 0.12 flip 90 }
+	ARCL {s 0.002  x 0.01 y 0.12 flip -90 }
+	ARCL {s 0.002 x 0.02  y 0.12 flip 90 }
+	//ARCL { y 12 r 180 }
+}
+
+
+rule UNDERLINE {
+	//left stroke
+	LONGPEN {s 1.5 x 50 y -5  flip 180 r -80  }
+	// right stroke
+	LONGPEN {s 1.5 x 20  y -5 flip 180 r  80}
+}
+
+rule LONGPEN {
+	TRIANGLE [ s 1 30 y 0.26 ]
+}
+
+rule SHORTPEN {
+	TRIANGLE [ s 1 15 y 1]
+}
+
+rule ARCL {
+	ENDCAP{}
+	ARCL { size 0.97 y 0.55 r 1.5 }
+}
+
+rule ENDCAP {
+	SQUARE { }
+}

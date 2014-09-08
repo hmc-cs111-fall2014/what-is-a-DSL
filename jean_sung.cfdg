@@ -1,0 +1,32 @@
+startshape START
+
+// start command chain 
+rule START {
+	//set color at the beginning 
+	SPIRAL[hue 42 sat 1 b 0.5]
+}
+rule SPIRAL {
+	4* {r 65} SPIRAL2 {}
+}
+
+rule SPIRAL2 {
+	SPIRAL3 {}
+}
+rule SPIRAL2 {
+	SPIRAL3 { flip 75 }
+}
+
+rule SPIRAL3 {
+	SQUARE {}
+	SPIRAL3 { y 0.95 s 0.99 r 2}
+}
+rule SPIRAL3 0.01 {
+	SPIRAL2 { r 90 }
+	SPIRAL2 { r -90 }
+	SPIRAL2[ r 20 x 5 b 0.4 h 15] 
+	SPIRAL3 { y 0.98 s 0.99  r 1}
+}
+
+// Jean Sung
+// CS 111 Homework 1
+// adapted from tangle example 

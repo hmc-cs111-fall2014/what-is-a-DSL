@@ -1,0 +1,39 @@
+startshape start
+
+rule start {
+	spiral[hue 120 sat 1 b 0.5]
+
+}
+
+rule spiral {
+	SQUARE []	
+	TRIANGLE []
+	SQUARE []
+	TRIANGLE []
+	spiral[ s 0.95 r 20 x 5 b 0.3 h 15] 
+	CIRCLE { x -0.5 y 0.0 s 1.0 }
+}
+
+rule spiral 0.1 {
+	spiral[r 5 flip 90]
+	spiral[r 5 flip -90]
+	CIRCLE { x -0.5 y 0.0 s 1.0 }
+}
+
+
+rule spiral 0.1{
+	spiral [r -5 flip 90]
+	//spiral [r 5 flip 90]
+}
+
+rule spiral 0.5 {
+	spiral[r 220]
+	CIRCLE { x -0.5 y 0.0 s 1.0 }
+}
+
+rule spiral 0.1 {
+	spiral[r 180 flip 90]
+	CIRCLE { x -0.5 y 0.0 s 1.0 }
+
+}
+
