@@ -12,7 +12,7 @@ Queries and maintains relational databases
 _What is the underlying computational model of this language? To answer this 
 question, provide a high-level description (no more than 100 words) of the 
 computation that occurs when someone executes a program in this language._
-
+The SQL statement is parsed into instructions the database engine can understand. While parsing, it also figures out the best way to execute the query. Then, that information is passed on so that the appropriate rows in the database can be fetched or updated
 
 # DSL-ness
 _Fowler writes about a spectrum of languages, from general-purpose languages to 
