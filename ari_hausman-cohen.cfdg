@@ -1,0 +1,34 @@
+startshape BASE
+
+rule BASE {
+  10* {y .2 hue -5} STREAK { y -4 sat 1 b .6 hue 240 z 2}
+  SUN {s .5 b .8 y -1.7 x 5 sat .8 z 1}
+  10* {y .2 hue -5} STREAK { y -2 sat 1 b .6 hue 50 z 0}
+  CLOUD { x 5 b .8 sat 0.7 s .1}
+  CLOUD { x .8 y -.6 b 1 sat 0.6 s .15}
+  CLOUD { x 5.7 y -.6 b .8 sat 0.6 s .15}
+  CLOUD { x 2 y -1.3 b 1 sat 0.5 s .2}
+}
+
+rule STREAK {
+  10* {b -.05 x.8} CIRCLE {}
+}
+
+rule CLOUD {
+  STREAK {s .4}
+  STREAK {x 4 s .4}
+  STREAK {y -.6}
+  STREAK {y -1.4 x .2 s .9}
+  STREAK {y -2 x 1 s .4}
+  STREAK {y -2 x 3 s .4}
+}
+
+rule SUN {
+  CIRCLE {hue 30}
+  6* {r 60} RAY {s .3 hue 30 x .5}
+}
+
+rule RAY {
+  CIRCLE {}
+  RAY {r 10 x .8 s .8}
+}
