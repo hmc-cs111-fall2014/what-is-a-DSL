@@ -1,6 +1,7 @@
 # Language
 _What is the name of the language? Link the name to its webpage 
 (if appropriate)._
+The DSL I will be discussing is the Wiki Markup Language, a reference to which can be found at the [help page] (http://en.wikipedia.org/wiki/Help:Wiki_markup).
 
 
 # Domain
