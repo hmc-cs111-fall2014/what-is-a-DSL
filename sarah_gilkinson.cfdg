@@ -83,11 +83,3 @@ rule BORDER {
 	BORDER {flip 90 y 3 s 0.94 }
 }
 
-rule END {
-	CIRCLE { x -0.5 y 0.0 s 1.0 }
-	CIRCLE { x 0.45 y 0.6 s 0.9 }
-	CIRCLE { x -0.4 y 1.2 s 0.8 }
-	CIRCLE { x 0.35 y 1.8 s 0.7 }
-	CIRCLE { x -0.3 y 2.4 s 0.6 }
-}
-
