@@ -1,0 +1,54 @@
+startshape START
+background { b -1 }  // This changes the background to black
+
+rule START {
+	spiral [sat 4 b 1 h 170 ]
+}
+
+// Recurse
+rule spiral .2 {
+	oddStar []
+	spiral [s .50 x .2 y -4 r 20 h 3 a -.08]
+}
+rule spiral  {
+	oddStar []
+	spiral [s .50 x .2 y -4 r 20 h 3 a -.08]
+	spiral [s .80 x 2 y 5 r 190 h -80 a -.2]
+	spiral [s .80 x 2 y -5 r 50 h -80 a -.4]
+}
+
+
+// Choose which of the two stars
+rule oddStar 0.2 {
+	oddStar1 []
+}
+rule oddStar 0.2  {
+	oddStar2 []
+}
+rule oddStar 0.2  {
+	oddStar3 []
+}
+
+
+
+// Stars themselves
+path oddStar1 {
+   MOVETO{x cos(90-154) y sin(90-154)}
+    68* {r 154}  LINETO {y 1} //ARCTO {y 1 r 2}
+
+    STROKE{width 0.01}     
+}
+
+path oddStar2 {
+   MOVETO{x cos(90-131.1) y sin(90-131.1)}
+    40* {r 131.1}  LINETO {y 1} //ARCTO {y 1 r 2}
+
+    STROKE{width 0.01}     
+}
+
+path oddStar3 {
+   MOVETO{x cos(90-101) y sin(90-101)}
+    25* {r 101}  LINETO {y 1} //ARCTO {y 1 r 2}
+
+    STROKE{width 0.01}     
+}
