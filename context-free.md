@@ -14,6 +14,8 @@ Further than this, I found it very easy to work with the loops and control-flow 
 
 I found it very hard to read and understand code written by other developers (on forums/in the documentation) in ContextFree. ContextFree provides artists with a shorthand notation by which shapes can be scaled, altered, rotated, etc., and this notation is not conducive to creating readable code that can be easily understood by novices or other developers at first glance.
 
+After using ContextFree a bit, I have been led to believe that the programming language does not lend itself to great styling standards. It seems that the more complex a particular piece of art becomes in ContextFree, the more complex the code becomes. I feel that this drawback of ContextFree is due to the very nature of the language itself, in which some rule for a shape usually depends on another shape, so the code is layered with dependencies and can be very confusing for a human to step-through and understand.  
+
 ## How did you learn how to program in this language?
 
 I worked through some of the examples in ContextFree's documentation and then immediately began working with some of the basics in ContextFree's IDE. While I am certainly no expert, I was able to learn the basics of using ContextFree by quickly rendering many different code segments in the development environment. 
