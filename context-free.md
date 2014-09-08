@@ -2,6 +2,8 @@
 
 ##  Who is this programming language for?
 
+This programming language is probably meant for those who want to create digital
+art or for exposing programming students to new and different languages.
 
 ## What is easy to do in this language? Why is it easy?
 
@@ -11,6 +13,8 @@
 
 ## How did you learn how to program in this language?
 
+I did a lot of experimentation after looking through the example given and the
+documentation.
 
 ## What is the underlying _computational model_ for this programming language? 
 _We don't yet have a great definition of the term "computational model". 
