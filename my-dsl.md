@@ -33,7 +33,7 @@ to describe common markups such as headers and emphasized text.
 The language is considerably more code-efficient than HTMl for many of the tasks
 which are used heavily by Wikipedia-style articles. For example, headers, and emphasis are
 created using text characters without the need for HTML tags. Similar to markdown,
-links are created without the clutter and complication of <a href> silliness which can often
+links are created without the clutter and complication of \<a href\> silliness which can often
 be confusing. The common markup operations are both simplified and emphasized by the syntax
 of the DSL, making it easier to create article-style markup without the clutter of tags.
 
