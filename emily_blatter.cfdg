@@ -17,10 +17,10 @@ shape CURVE
 rule
 {  
     CIRCLE [ ]
-    CURVE [ size 0.97 y 0.5 r 1.0 alpha -.04 h .8]
+    CURVE [ size 0.97 y 0.5 r 1.0 alpha -.04 h 0.8]
 }
 rule 20
 {
     SQUARE [ ]
-    CURVE [ size 0.97 y 0.5 r 1.0 alpha -.04 h 0.8]
+    CURVE [ size 0.97 y 0.5 r 1.0 alpha -.04 h 1.5]
 }
