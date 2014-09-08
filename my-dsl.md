@@ -46,4 +46,4 @@ This language offers a lot of flexibility over synthesized audio as you can very
 _Identify one potential drawback of the DSL: what does a programmer or company 
 lose by using this DSL instead of general-purpose language?_
 
-NOTE: MUST ADD ANSWER HERE
+Hand coding the _orchestra_ and _score_ files can become tedious, which combined with the limits of the strict syntax, can make it pretty difficult to truly express the music the programmer/composer is trying to create. The one way to overcome this drawback is to use Csound in conjunction with another language/tool, which still has the downside of making it harder to connect all of the pieces and logic.
