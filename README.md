@@ -106,4 +106,4 @@ might add to your partner's work?
 firstname_lastname_variant.png`
 - [x] Answer the questions in `context-free.md`
 - [x] Submit your work
-- [ ] Comment on your partner's work
+- [x] Comment on your partner's work
