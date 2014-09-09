@@ -27,6 +27,7 @@ forum posts that discussed tricks in the language.
 _We don't yet have a great definition of the term "computational model". 
 For now, try to come up with the clearest, most concise explanation of what 
 happens when a ContextFree program runs._
+
 A ContextFree program seems very declarative. By this I mean that it seems like programs in context free are executed as
 following a tree of rules. The program begins at the root `startshape` and follows all possible rule paths until there are 
 no more paths available or the paths get to small to be rendered reasonably (so recursive operations end when the recursion gets down
