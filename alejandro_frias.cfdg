@@ -1,0 +1,28 @@
+startshape START
+
+rule START {
+	//MARBLE {y 10  h 0 sat 0 b 1 s 10}
+	WALK {y 10  h 35.37 sat 1 b 1}
+}
+
+rule WALK 10000 {
+	SQUARE {}
+	WALK {hue 0.02 sat -0.002 y 1 }
+}
+
+rule WALK 50 {
+	WALK { sat 1  }
+}
+
+rule WALK 3000 {
+	WALK {r 90}
+}
+
+rule WALK 3000 {
+	SQUARE {}
+	WALK { r -90 }
+}
+
+rule WALK {
+	SQUARE {}
+}
