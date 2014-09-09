@@ -1,0 +1,50 @@
+// Nick Carter
+// DSLs Fall 2014
+// Extensively referenced documentation on contextfreeart.org
+// Inspiration for tree design in context-free from 
+// http://www.contextfreeart.org/phpbb/viewtopic.php?t=581
+
+
+startshape WORLD
+
+background {b -1} 
+
+rule WORLD {
+
+     SUN {size 10 x 15 y 50} 
+	// forest
+	100* {s 0.9 x -4 y 4 h 10} ROW {h 114.86 sat 1.0000 b 1.0000}
+}
+
+rule ROW {
+	100* {s 0.9 x 4 y 4 b -.1} SEED {}
+}
+
+// tree
+rule SEED {BRANCH {}}
+
+rule BRANCH {
+	LINE {y 0 r 0}
+	FORK {y 6 size 0.7}
+}
+
+rule FORK {
+     BRANCH {size 0.7 y 0.1 rotate 30}
+     BRANCH {size 0.7 y 0.1 rotate -30}
+}
+
+rule LINE {
+	TRIANGLE [ s 1 20 y 0.26 ]
+}
+ 
+rule SUN {
+    TRIANGLE [ r  30 x 0.5 s 1 0.5 h 7.21 sat 0.9744 b 1.0000]
+    TRIANGLE [ r  90 x 0.5 s 1 0.5 h 36.87 sat 1.0000 b 1.0000]
+    TRIANGLE [ r 150 x 0.5 s 1 0.5 h 7.21 sat 0.9744 b 1.0000]
+    TRIANGLE [ r 210 x 0.5 s 1 0.5 h 36.87 sat 1.0000 b 1.0000]
+    TRIANGLE [ r 270 x 0.5 s 1 0.5 h 7.21 sat 0.9744 b 1.0000]
+    TRIANGLE [ r 330 x 0.5 s 1 0.5 h 36.87 sat 1.0000 b 1.0000]
+
+    CIRCLE [ s 0.75  b 1 h 60.60 sat 0.9055 b 1.0000]
+}
+
