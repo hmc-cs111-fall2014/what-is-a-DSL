@@ -97,7 +97,7 @@ might add to your partner's work?
 ## Tasks
 
 - [ ] Identify a partner for the critique part of the assignment
-- [ ] Read the [Assignment HOWTO]
+- [x] Read the [Assignment HOWTO]
 - [ ] Read Fowler's [introduction to DSLs][Fowler]
 - [ ] Find a DSL
 - [ ] Describe your DSL's implementation and semantics in `my-dsl.md`
