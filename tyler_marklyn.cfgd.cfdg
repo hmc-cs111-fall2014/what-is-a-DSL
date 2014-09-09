@@ -1,0 +1,79 @@
+startshape START
+
+rule START {
+	HELLO { y 75 }
+	WORLD { y 60 }
+	RAINBOW { x -58 }
+}
+
+rule RAINBOW {
+	180* { r -1 y 1} RAINBOWSEGMENT { hue 0 sat 1 b 1 }
+}
+
+rule RAINBOWSEGMENT {
+	CIRCLE { }
+	RAINBOWSEGMENT { x 0.5 s 0.99 hue 1 }
+}
+
+rule HELLO {
+	H { x -40 }
+	E { x -20 }
+	L { }
+	L { x 20 }
+	O { x 40 }
+}
+
+rule WORLD {
+	W { x -40 }
+	O { x -20 }
+	R { }
+	L { x 20 }
+	D { x 40 }
+}
+
+rule H {
+	LINE { }
+	LINE { y 7 s 0.4 r -90 }
+	LINE { x 6 }
+}
+
+rule E {
+	LINE { }
+	LINE { y 12 s 0.4 r -90 }
+	LINE { y 7 s 0.35 r -90 }
+	LINE { s 0.4 r -90 }
+}
+
+rule L {
+	LINE { }
+	LINE { s 0.4 r -90 }
+}
+
+rule O {
+	CIRCLE { s 5 12 y 6 }
+	CIRCLE { hue 0 sat 0 b 1 s 4 10 y 6.5 }
+}
+
+rule W {
+	LINE { r -7 }
+	LINE { r 7 }
+	LINE { x 3 r -7 }
+	LINE { x 3 r 7 }
+}
+
+rule R {
+	LINE { }
+	LINE { y 12 s 0.5 r -130 }
+	LINE { y 5 s 0.5 r -50 }
+	LINE { y 5 s 0.6 r -130 }
+}
+
+rule D {
+	LINE { }
+	LINE { y 12 s 0.7 r -140 }
+	LINE { s 0.7 r -40 }
+}
+
+rule LINE {
+	TRIANGLE { s 0.5 15 y 4.5 }
+}
