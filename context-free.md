@@ -2,25 +2,27 @@
 
 ##  Who is this programming language for?
 This programming language seems like it is mostly targeted at people who need to create graphics in a very structured way.
-Those that just want to draw are paint may be better served by a tablet. However, I think there is a use case for needing a 
-highly rigid, editable description for what you are creating.
+Those that just want to draw or paint may be better served by a digital tablet. However, I think there is a use case for needing a 
+highly rigid, editable description for what you are creating. Perhaps art for boxes or items that could change size could 
+make good use of this type of quickly editable description.
 
 
 ## What is easy to do in this language? Why is it easy?
 It is easy to adapt elements and to reuse ideas. The concept of rules makes it very easy to take one idea and use 
 it a lot of times. It is also very easy to take an element and change it in a subtle way and see how the change 
-affects the outcome.
+affects the outcome. These are easy because of the encapsulation of shape parts into separate function like elements.
+These can then be used together to compose the full image. 
 
 
 ## What is hard to do in this language? Why is it hard?
 It is hard to build complicated computations. Multi dimensional loops are possible, but it is hard to do operations much more complicated
 than addition and subtraction. I created some trees in my program, but when I looked into more complicated fractals it didn't seem
-feasible. 
+feasible. It seems like they have purposely restricted the function set away from more mathematical ideas to preserve simplicity and ease of use. 
 
 
 ## How did you learn how to program in this language?
 I looked at sample programs and code in the documentation, the `welcome` program, and some
-forum posts that discussed tricks in the language. 
+forum posts that discussed tricks in the language.
 
 
 ## What is the underlying _computational model_ for this programming language? 
