@@ -105,5 +105,5 @@ might add to your partner's work?
 - [x] Make and save a pretty picture in 
 firstname_lastname_variant.png`
 - [x] Answer the questions in `context-free.md`
-- [ ] Submit your work
-- [ ] Comment on your partner's work
+- [x] Submit your work
+- [x] Comment on your partner's work
