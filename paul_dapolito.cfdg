@@ -1,0 +1,23 @@
+startshape Image
+
+rule Spikes {
+	TRIANGLE [b 0]
+	CIRCLE [b 1]
+}
+
+rule SpikedTrident{
+	90 * {r 1 s .9 sat 1 b .9 h 100} Spikes []
+}
+
+rule SpikedBall{
+	30 * {r 10} SpikedTrident []
+}
+
+rule Wrapper{
+	SQUARE { sat 1 b .7 h 20 }
+	SpikedBall []
+}
+
+rule Image{
+	Wrapper []
+}
