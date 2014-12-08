@@ -1,0 +1,29 @@
+startshape SHAPE 
+
+background { sat 1 b 1 hue 190 }
+
+rule SAW {
+	9* {r 20} SQUARE {}
+}
+
+rule SHAPE {
+	BITS {}
+
+}
+
+rule BITS {
+	SAW { size 5 }
+	9* {r 20} AND{}
+
+}
+
+rule AND {
+	
+	5* { x - 1} PIECES {}
+}
+
+rule PIECES {
+	CIRCLE {size 0.5  sat 0.5 hue 120 b 1}
+
+	
+}
