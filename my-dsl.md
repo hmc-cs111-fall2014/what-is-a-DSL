@@ -1,38 +1,66 @@
 # Language
-_What is the name of the language? Link the name to its webpage 
-(if appropriate)._
+
+The language I chose is **csound**. The language, and several
+IDEs for writing in it, can be found [here](http://www.csounds.com/).
 
 
 # Domain
-_Describe the language's domain in five words._
+Composing and manipulating computer music.
 
 
 # Computational model
-_What is the underlying computational model of this language? To answer this 
-question, provide a high-level description (no more than 100 words) of the 
-computation that occurs when someone executes a program in this language._
+"Programs" in csound are composed of two text files,
+an orchestra file and a score file. The orchestra file (.orc) defines
+the instruments that can be used in this performance while the score
+file (.sco) defines the notes that these instruments will play. When a
+csound program is executed, the computer causes the .orc file to "perform"
+the score, which also contains a list of user preferences for how the
+piece should be performed, generating a .wav file that can be played later.
 
 
 # DSL-ness
-_Fowler writes about a spectrum of languages, from general-purpose languages to 
-"purely" domain-specific. Where does the DSL you chose fall on this spectrum, 
-and why?_ 
+I think csound falls fairly close to the general-purpose languages. First of
+all csound is turing-complete since it has built in conditionals. This seems
+like a strike against it in the "pure DSL" club. csound also allows users to
+define and manipulate variables, which means that almost any problem could
+be solved in csound. However, csound has no concept of dynamic input so I
+would argue that it falls short of being a fully general-purpose language.
+Additionally, the only kinds of output it can produce are playable audio files
+so retrieving the solutions to any general problem you solve in it could be
+tricky.  
 
 
 # Internal or external?
-_Is the language implemented as an internal or external DSL? 
-Justify your answer._
+csound fits Frowler's definition of an external DSL. He argues that "A
+script in an internal DSL is valid code in its general purpose language",
+which pretty much settles it, since csound code is nowhere close to valid
+C code.
 
 
 # Host language
-_What language(s) was (were) used to implement the DSL?_
+csound was implemented in C! (c-sound). There is also some C++ and a
+little bit of python in their project on [github](https://github.com/csound/csound),
+but it's hard to tell what that's actually being used for. Since csound
+was initially written in 1985, before python had been just as C++
+was getting off the ground, it seems safe to assume that the
+backend was at least initially written entirely in C.
+
 
 
 # Benefits
-_Identify one potential benefit of the DSL: how is a programmer's life or a 
-company's bottom line made easier by the existence of this language?_
+This language makes it **way** easier to manage the specifics of computer
+music. Trying to compose music in a general purpose language would be insane.
+I would say that the main benefit of this language is the ease of composition
+using its adapted syntax.
 
 
 # Drawbacks
-_Identify one potential drawback of the DSL: what does a programmer or company 
-lose by using this DSL instead of a general-purpose language?_
+On a similar note, using this language for anything but composing music
+would be insane. By using this language instead of a general-purpose one
+programmer (or company) looses much of the flexibility inherent in that
+language. For example being able to dynamically control the flow of code
+execution goes out the window in csound. The only way to provide input
+is through the static score and orchestra files. Additionally, it doesn't
+seem like cscope lets you manage the specifics of the audio processing
+(the number of threads it runs on, ect.), so if the user cared about
+performance on a specific machine csound may not be the right choice.

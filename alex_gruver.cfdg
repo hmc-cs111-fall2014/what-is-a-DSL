@@ -1,0 +1,46 @@
+startshape final
+
+background{b -.9}
+
+path Line1 {
+	MOVETO {x 0 y 0}
+	LINETO {x 2.1 y .5}
+	STROKE {width 1}
+}
+
+rule baseSquare {
+	SQUARE{hue 240 saturation 240 brightness .5}
+	Line1{hue 240 saturation 240 brightness .5}
+	
+}
+
+rule root2 { 
+	100 * { saturation -24 hue -24 s.95 y .5 r 5} root{}
+}
+
+
+rule root { 
+	24 * {r 15 x 2 y .5} baseSquare{}
+
+}
+
+rule eye {
+	25 * { saturation -24 hue -24 s.9 y .5 r 90} root2{}
+
+}
+
+rule test {
+	25 * {x 1 y 1 r 10} eye{}
+
+	
+}
+
+rule final {
+	
+
+	test {r 27 s .4 x 3 z 0}
+	SQUARE{hue 194 saturation .96 b .95 size 20 12 z -1 y 5.7}
+
+	20 * {y -.5 hue -2.5 } SQUARE{hue 79 saturation .96 b .7 size 20 .5  z -1}
+	
+}
