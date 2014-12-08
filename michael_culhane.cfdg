@@ -1,0 +1,26 @@
+startshape SWIRLCIRCLE
+
+rule SWIRLCIRCLE {
+	4* {r 180} SWIRLSET{}
+}
+
+rule SWIRLSET {
+	6* {r 60} SWIRL{}
+}
+
+rule SWIRL {
+	LEFTSWIRL{}
+}
+
+rule SWIRL {
+	RIGHTSWIRL{}
+}
+
+rule LEFTSWIRL {
+	SQUARE{sat 0.9 hue 10}
+	LEFTSWIRL {y 0.99 s 0.993 r -5 b 0.01}
+}
+
+rule RIGHTSWIRL {
+	LEFTSWIRL {r 90}
+}
