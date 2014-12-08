@@ -1,0 +1,31 @@
+// Inspiration originally from ContextFree Introduction webpage
+
+startshape drawHelixes
+
+rule drawHelixes {
+ drawHelix {}
+ drawHelix {r 120}
+ drawHelix {r 240}
+}
+ 
+rule drawHelix {
+ triangleHelix {alpha -0.9}
+ circleHelix {alpha -0.9}
+ squareHelix {alpha -0.9}
+}
+
+// Note: 16.3 is chosen to make the triangles just touch between rings in the helix 
+rule triangleHelix {
+ TRIANGLE []
+ triangleHelix {alpha 0.0001 r 16.3 x 0.5 s 0.975}
+}
+
+rule squareHelix {
+ SQUARE []
+ squareHelix {alpha 0.0001 r 16.3 x 0.5 s 0.975}
+}
+
+rule circleHelix {
+ CIRCLE []
+ circleHelix {alpha 0.0001 r 16.3 x 0.5 s 0.975}
+}
