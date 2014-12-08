@@ -1,0 +1,12 @@
+startshape SPIRALPYTH
+
+rule SPIRALPYTH {
+    PYTHAGOREAN {hue 30}
+} 
+
+rule PYTHAGOREAN {
+    SQUARE {}
+    SQUARE {r 60 s .5 x -.59 y .84}
+    SQUARE {r -30 s .86 x .34 y 1.09}
+    PYTHAGOREAN {hue .1 sat .1 b .5 s .9 r 30 x .75 y 1}
+}
