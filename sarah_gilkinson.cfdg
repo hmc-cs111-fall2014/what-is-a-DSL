@@ -1,0 +1,89 @@
+startshape SARAH
+
+rule SARAH {
+	MESSAGE { hue 105 sat 0.7 b 0.6 x 5}
+	BORDER { s 0.9 y -10}
+	BORDER { s 2.1 r 270 y 30 }
+	BORDER { s 0.9 x 100 y -10 }
+	BORDER {s 2.1 r 90 x 100 y -10 }
+}
+
+rule MESSAGE {
+	S { x 0 }
+	A { x 12 }
+	R { x 24 }
+	A { x 34 }
+	H { x 46 }
+	HEART { x 65 }
+}
+
+rule S {
+	ARCR { s 0.45 y 18 flip 90 r -16 }
+	ARCR { s 0.45 y 18 r 164 }
+	ARCR { s 0.45 y 4.6 flip 0 x 6.8 r -16 }
+	ARCR { s 0.45 y 4.6 x 6.8 r -16 }
+}
+
+rule A {
+	LINE { x 0 r -7 }
+	LINE { x 6 r 7 }
+	LINE { s 0.3 x 0.5 r -90 y 10 }
+}
+
+rule R {
+	LINE { }
+	ARCL { s 0.5 y 18 flip 0 x 5 }
+	ARCL { s 0.5 y 18 x 5 }
+	LINE { x 6 r 25 s 0.6 }
+}
+
+rule H {
+	LINE { }
+	LINE { x 5 }
+	LINE { r 270 s 0.3 y 10 }
+}
+
+rule HEART {
+	ARCR { s 0.4 y 20 flip 90 r -90 }
+	ARCR { s 0.4 y 20 r 90 }
+	ARCR { s 0.4 y 20 x 10 flip 90 r -90 }
+	ARCR { s 0.4 y 20 x 10 r 90 }
+	CURVE { s 0.85 x 5 r -51 }
+	CURVE { s 0.85 x 5 flip 90 r 51 }
+}
+
+rule LINE {
+	TRIANGLE [ s 1 30 y 0.26 ]
+}
+
+rule ARCL {
+	MARK { }
+	ARCL { size 0.97 y 0.55 r 1.5 }
+}
+
+rule ARCR {
+	MARK { }
+	ARCR { size 0.98 y 0.5 r 1.5 }
+}
+
+rule MARK {
+	SQUARE { }
+}
+
+rule CURVE {
+	SQUARE []
+	CURVE {y 0.5 r 0.5 s 0.98 y 0.5}
+}
+
+rule BORDER {
+	CURVE {s 0.5 }
+	CURVE{hue 70 sat 0.7 b 0.6 s 0.4 }
+	BORDER {flip 90 y 4 s 0.94 }
+}
+
+rule BORDER {
+	CURVE {s 0.4 }
+	CURVE{ hue 105 sat 0.7 b 0.6 s 0.4}
+	BORDER {flip 90 y 2 s 0.94 }
+}
+
