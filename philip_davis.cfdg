@@ -1,0 +1,60 @@
+startshape HMC
+
+rule HMC {
+	RandomSize0 {}
+          RandomSize0 {x 35 y 11}
+          RandomSize0 {x 70 y -10}
+}
+
+rule RandomSize0 { RandomSize1 {} }
+rule RandomSize0 { RandomSize1 {s 1.1} }
+rule RandomSize1 {RandomSize2 { } }
+rule RandomSize1 {RandomSize2  {s 0.7} }
+rule RandomSize2 { RandomSizeN {} }
+rule RandomSize2 {RandomSizeN {s 3.1415} }
+rule RandomSizeN { RandomLetter {} }
+
+rule RandomLetter { H  {} }
+rule RandomLetter { M  {} }
+rule RandomLetter { C {} } 
+
+rule M {
+    halfM {hue 120 sat 1 b 1}
+    halfM {hue 30 sat 1 b 1 r 315 x 22}
+}
+
+rule H {
+   halfH {hue 65 sat 1 b 1}
+   halfH {r 60 x 20 hue 220 sat 1 b 0.5}
+}
+
+rule halfH {
+   3* {r 120} spike {}
+}
+
+rule halfM {
+    2* {r 45} spike {r 270}
+}
+
+rule spike {  // from version 2 docs
+    SQUARE {b 0.1}
+    spike [x 0.5 s 0.95 x 0.5]
+}
+
+// Following borrowed from WELCOME program
+rule C {  
+	ARCL { y 12 flip 90 h 0 b 1 sat 1 }
+	ARCL { y 12 r 180 h 0 b 1 sat 1 }
+}
+
+rule ARCL {
+	MARK { }
+	ARCL { size 0.97 y 0.55 r 1.5 }
+}
+
+rule MARK {
+    SQUARE {}
+}
+
+
+
