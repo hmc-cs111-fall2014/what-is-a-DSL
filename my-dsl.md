@@ -1,38 +1,35 @@
 # Language
-_What is the name of the language? Link the name to its webpage 
-(if appropriate)._
+The language is [C--](www.cminusminus.org).
 
 
 # Domain
-_Describe the language's domain in five words._
+Portable quality machine code generation.
 
 
 # Computational model
-_What is the underlying computational model of this language? To answer this 
-question, provide a high-level description (no more than 100 words) of the 
-computation that occurs when someone executes a program in this language._
-
+The computational model seems to be the same as the model used by C.  A C--
+program is compiled into "quality" machine code and (presumably) run in that
+form.  When a program is executed the binary code is executed on the platform
+the C-- backend was targetting.
 
 # DSL-ness
-_Fowler writes about a spectrum of languages, from general-purpose languages to 
-"purely" domain-specific. Where does the DSL you chose fall on this spectrum, 
-and why?_ 
-
+C-- is a general purpose language with a specific focus and a slightly reduced
+feature set.  I would say it falls somewhere in the middle of the spectrum.  It
+is still a Turing-complete, full-featured language, but it is designed for a
+specific domain (producing machine code efficiently from a variety of
+languages).
 
 # Internal or external?
-_Is the language implemented as an internal or external DSL? 
-Justify your answer._
-
+The language is implemented as an external DSL. It is influenced by C syntax
+but does not use purely C syntax.
 
 # Host language
-_What language(s) was (were) used to implement the DSL?_
-
+As far as I can tell, C was used to implement C--, but the cminusminus site is
+really sketchy on those kinds of details.
 
 # Benefits
-_Identify one potential benefit of the DSL: how is a programmer's life or a 
-company's bottom line made easier by the existence of this language?_
-
+C-- provides support for optimized tail calls, exceptions, and lightweight
+concurrency.
 
 # Drawbacks
-_Identify one potential drawback of the DSL: what does a programmer or company 
-lose by using this DSL instead of a general-purpose language?_
+C-- does not provide varargs procedures, unlike C.
