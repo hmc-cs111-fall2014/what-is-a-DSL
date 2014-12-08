@@ -1,0 +1,47 @@
+startshape PRETTYPIC
+background {hue 255 sat 4 b 0}
+
+
+rule PRETTYPIC {
+	HAIR{ hue 120 sat 0.7 b 0.6 }
+	POOPBODY{ hue 40 sat 0.95 b 0.6  s 0.1}
+}
+
+rule TOPBODY {
+	HAIR{}
+}
+rule POOPBODY {
+	//bottom
+	CIRCLE {x -0.5 }
+	CIRCLE {x -0.25 }
+	CIRCLE {x 0 }
+	CIRCLE {x 0.25}
+	CIRCLE {x 0.5}
+
+	// 2nd row
+	CIRCLE {x -0.2 y 0.5}
+	CIRCLE {x 0 y 0.5}
+	CIRCLE{x 0.2 y 0.5}
+
+	// 3rd row 
+	CIRCLE{ x 0 y 0.8}
+}
+
+rule HAIR {
+	ARCL {s 0.002 x -0.02  y 0.12 flip 90 }
+	ARCL {s 0.002  x -0.01 y 0.12 flip -90 }
+	ARCL {s 0.002 x 0.0  y 0.12 flip 90 }
+	ARCL {s 0.002  x 0.01 y 0.12 flip -90 }
+	ARCL {s 0.002 x 0.02  y 0.12 flip 90 }
+	//ARCL { y 12 r 180 }
+}
+
+rule ARCL {
+	MARK {}
+	ARCL { size 0.97 y 0.55 r 1.5 }
+}
+
+
+rule MARK {
+	SQUARE { }
+}
