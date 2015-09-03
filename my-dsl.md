@@ -50,3 +50,4 @@ Problems include:
     - It always translates into sequential MapReduce jobs (Map -> Reduce -> Map -> Reduce) even if a different flow wouuld be more optimal (Map -> Reduce -> Reduce)
     - It always uses the MapReduce framework, even if a more complex model of parallelism would be more optimal
   - While HQL is very similar to SQL, it differs in ways which are unclear to users. These differences range from syntatical to semantic differences, the semantic differences being most problematic
+  - HQL also doesn't support features from SQL in some cases. For example `SELECT * FROM my_table` generally doesn't work as partition column values must be specified in a WHERE clause.
