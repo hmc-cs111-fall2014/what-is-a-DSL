@@ -1,0 +1,26 @@
+startshape WELCOME
+
+rule WELCOME {
+
+
+	KOCHE { size 2 hue 100  sat 0.7 b 0.6 x 45 y -15 }
+}
+
+rule HEXKOCHE {
+	PROJKOCHE {}
+	PROJKOCHE { r 60 }
+	PROJKOCHE { r 120 }
+	PROJKOCHE { r 180 }
+	PROJKOCHE { r 240 }
+	PROJKOCHE { r 300 }
+}
+
+rule PROJKOCHE {
+	KOCHE { h 20 y 0.38333 size 0.33333333333 }
+}
+
+rule KOCHE {
+	TRIANGLE []
+	HEXKOCHE {}
+}
+
