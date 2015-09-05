@@ -1,0 +1,139 @@
+/*MissingNo.*/
+
+startshape MO
+
+shape MO
+{
+	RANDSTRIP [[ x 1.75 y 2.74 ]]
+	RANDSTRIP [[ x 2.25 y 2.74 ]]
+	ALT_RANDSTRIP_1 [[ x 2.75 y -2.26 ]]
+	RANDSTRIP [[ x 3.25 y 2.74 ]]
+	EYETWO [[x 2 y -2.77]]
+	ALT_RANDSTRIP_2 [[ x 3.75 y 1.74 ]]
+	EYEONE [[x 3.77 y 2.5]]
+	RANDSTRIP [[ x 4.25 y 2.74 ]]
+	TOPWHITE [[]]
+	RANDSTRIP [[ x 4.75 y 2.74 ]]
+	RANDSTRIP [[ x 5.25 y 2.74 ]]
+	RANDSTRIP [[ x 5.75 y 2.74 ]]
+	RANDSTRIP [[ x 6.25 y 2.74 ]]
+
+}
+
+shape TOPWHITE
+{
+	SQUARE [[ x 2.375 y 0.5 s 1.76 5.1 b 1 ]]
+}
+
+shape EYEONE
+{
+	SQUARE [[ b 1 ]]
+	SQUARE [[ x -0.35 y 0.36 s 0.25 ]]
+}
+
+shape EYETWO
+{
+	SQUARE [[ s 1.75 1 b 1 ]]
+	SQUARE [[ x -0.35 y 0.2 s 0.25 ]]
+}
+
+shape RANDSTRIP
+{
+	RANDTILE [[]]
+	RANDTILE [[x 0 y -0.5]]
+	RANDTILE [[x 0 y -1]]
+	RANDTILE [[x 0 y -1.5]]
+	RANDTILE [[x 0 y -2]]
+	RANDTILE [[x 0 y -2.5]]
+	RANDTILE [[x 0 y -3]]
+	RANDTILE [[x 0 y -3.5]]
+	RANDTILE [[x 0 y -4]]
+	RANDTILE [[x 0 y -4.5]]
+	RANDTILE [[x 0 y -5]]
+	RANDTILE [[x 0 y -5.5]]
+	RANDTILE [[x 0 y -6]]
+	RANDTILE [[x 0 y -6.5]]
+	RANDTILE [[x 0 y -7]]
+	RANDTILE [[x 0 y -7.5]]
+	RANDTILE [[x 0 y -8]]
+	RANDTILE [[x 0 y -8.5]]
+	RANDTILE [[x 0 y -9]]
+	RANDTILE [[x 0 y -9.5]]
+	RANDTILE [[x 0 y -10]]
+	RANDTILE [[x 0 y -10.5]]
+}
+
+shape ALT_RANDSTRIP_1
+{
+ RANDTILE [[]]
+	RANDTILE [[x 0 y -0.5]]
+	RANDTILE [[x 0 y -1]]
+	RANDTILE [[x 0 y -1.5]]
+	RANDTILE [[x 0 y -2]]
+	RANDTILE [[x 0 y -2.5]]
+	RANDTILE [[x 0 y -3]]
+	RANDTILE [[x 0 y -3.5]]
+	RANDTILE [[x 0 y -4]]
+	RANDTILE [[x 0 y -4.5]]
+	RANDTILE [[x 0 y -5]]
+	RANDTILE [[x 0 y -5.5]]
+}
+
+shape ALT_RANDSTRIP_2
+{
+ 	RANDTILE [[]]
+	RANDTILE [[x 0 y -0.5]]
+	RANDTILE [[x 0 y -1]]
+	RANDTILE [[x 0 y -1.5]]
+	RANDTILE [[x 0 y -2]]
+	RANDTILE [[x 0 y -2.5]]
+	RANDTILE [[x 0 y -3]]
+	RANDTILE [[x 0 y -3.5]]
+	RANDTILE [[x 0 y -4]]
+	RANDTILE [[x 0 y -4.5]]
+	RANDTILE [[x 0 y -5]]
+	RANDTILE [[x 0 y -5.5]]
+	RANDTILE [[x 0 y -6]]
+	RANDTILE [[x 0 y -6.5]]
+	RANDTILE [[x 0 y -7]]
+	RANDTILE [[x 0 y -7.5]]
+	RANDTILE [[x 0 y -8]]
+	RANDTILE [[x 0 y -8.5]]
+	RANDTILE [[x 0 y -9]]
+	RANDTILE [[x 0 y -9.5]]
+}
+
+shape RANDTILE
+rule {
+	SQUARE [[ s 0.5 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.1 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.2 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.3 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.4 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.5 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.6 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.7 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.8 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 0.9 ]]
+}
+rule {
+	SQUARE [[ s 0.5 b 1 ]]
+}
