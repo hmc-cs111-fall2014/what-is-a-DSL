@@ -1,21 +1,23 @@
 # Context Free
 
 ##  Who is this programming language for?
-
+This programming language is for anyone interested in art and context free grammars.
 
 ## What is easy to do in this language? Why is it easy?
-
+It is easy to generate recuring shapes.
+This is easy because the language 
 
 ## What is hard to do in this language? Why is it hard?
-
+It is difficult to write out words and letters because the programmer has to figure out how each of the letters come together and then implement the shape. 
 
 ## How did you learn how to program in this language?
-
+I learned how to program in this language by examining the welcome code, reading through a few examples and trying out some simple shapes on my own.
 
 ## What is the underlying _computational model_ for this programming language? 
 _We don't yet have a great definition of the term "computational model". 
 For now, try to come up with the clearest, most concise explanation of what 
 happens when a ContextFree program runs._
+When a contextfree program runs, it r
 
 
 ## What do you think is interesting about the ContextFree program you wrote?
