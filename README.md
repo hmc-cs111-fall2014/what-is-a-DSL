@@ -81,20 +81,20 @@ uniquely identifies this version of your program).
 ## Identify your peer-review partner(s)
 Your name is on the left side of this table; the person whose work you should review is on the right side of this table:
 
-| Your name   | Your critique partner's name |
-| ----------- | ---------------------------  |
-| Adam        | Daniel H.                    |
-| Alex O.     | Daniel O.                    |
-| Alex P.     | Justis                       |
-| Anna        | Matt                         |
-| Ben         | Kevin                        |
-| Zoab        | Robin                        |
-| Daniel H.   | Zoab                         |
-| Daniel O.   | Adam                         |
-| Justis      | Alex O.                      |
-| Matt        | Alex P.                      |
-| Kevin       | Anna                         |
-| Robin       | Ben                          |
+| Your name   | Your critique partner's name                                                  |
+| ----------- | ---------------------------                                                   |
+| Adam        | [Daniel H.](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/8/files) |
+| Alex O.     | [Daniel O.](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/5/files) |
+| Alex P.     | [Justis](https://github.com/hmc-cs111-fall2014/what-is-a-DSL/pull/25/files)   |
+| Anna        | [Matt](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/9/files)      |
+| Ben         | [Kevin](https://github.com/hmc-cs111-fall2014/what-is-a-DSL/pull/23/files)    |
+| Zoab        | [Robin](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/1/files)     |
+| Daniel H.   | [Zoab](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/6/files)      |
+| Daniel O.   | [Adam](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/2/files)      |
+| Justis      | [Alex O.](https://github.com/hmc-cs111-fall2014/what-is-a-DSL/pull/24/files)  |
+| Matt        | [Alex P.](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/7/files)   |
+| Kevin       | [Anna](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/3/files)      |
+| Robin       | [Ben L.](https://github.com/hmc-cs111-fall2015/what-is-a-DSL/pull/4/files)    |
 
 
 ## Peer-review your partner's work
