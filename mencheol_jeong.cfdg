@@ -1,0 +1,13 @@
+startshape SQUARE_FRACTAL
+ 
+rule SQUARE_FRACTAL {
+    SQUARE_RECURSIVE {}
+}
+ 
+ 
+rule SQUARE_RECURSIVE {
+    SQUARE {s 0.95}
+    SQUARE_RECURSIVE { x  1 s 0.5 r -100 }
+    SQUARE_RECURSIVE { x -1 s 0.5 r  100 }
+    SQUARE_RECURSIVE { y  1 s 0.5 }
+}
