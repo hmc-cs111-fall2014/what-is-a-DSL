@@ -88,14 +88,14 @@ Your name is on the left side of this table; the person whose work you should re
 | Alex P.     | Justis                       |
 | Anna        | Matt                         |
 | Ben         | Men Cheol                    |
-| Dan W.      | Robin                        |
+| Zoab        | Robin                        |
 | Daniel H.   | Zoab                         |
 | Daniel O.   | Adam                         |
 | Justis      | Alex O.                      |
 | Matt        | Alex P.                      |
 | Men Cheol   | Anna                         |
 | Robin       | Ben                          |
-| Zoab        | Dan W.                       |
+| Zoab        | Robin                        |
 
 
 ## Peer-review your partner's work
