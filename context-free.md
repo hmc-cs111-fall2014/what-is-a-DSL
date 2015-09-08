@@ -35,7 +35,8 @@ I frequently got stuck on something and would either
 When a ContextFree program runs:
   1. The code is parsed by the application.
   2. The application starts with the starter rule and draws it to the output image.
-  3. The program may draw _many_ nested shapes (and primitive shapes) as a part of this process.
+  3. The program may draw _many_ nested rule (and primitive shapes) as a part of this process.
+    - In the case that there are multiple definitions for a rule, one is selected at random.
   4. It may also apply many transformations along the way.
   5. If rules get to a very small scale, it doesn't draw them.
 
@@ -44,6 +45,7 @@ For what its worth I believe the application is implemented in C/C++ from the so
 ## What do you think is interesting about the ContextFree program you wrote?
 
 I liked making a program that took advantage of recursion, which was very natural in the language.
+Making a fractal was especially fun for that reason.
 
 Additionally, while my program took a disproportionately long time to write, I sort of enjoyed the derpy process
 and all that I learned along the way.
