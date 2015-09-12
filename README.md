@@ -1,16 +1,16 @@
-[Assignment HOWTO]: https://github.com/hmc-cs111-fall2014/hmc-cs111-fall2014.github.io/wiki/Assignment-HOWTO
-[Fowler]: https://sakai.claremont.edu/access/content/group/CX_mtg_80056/Fowler_Chapter2.pdf
+[Assignment HOWTO]: https://github.com/hmc-cs111-fall2015/hmc-cs111-fall2015.github.io/wiki/Assignment-HOWTO
+[Fowler]: https://sakai.claremont.edu/access/content/group/CX_mtg_85077/Fowler_Chapter2.pdf
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 # What _is_ a DSL?
-###### _Submission deadline: Monday, Sept. 8 at 11:59pm_
-###### _Critique deadline: Wednesday, Sept. 10 at noon_
+###### _Submission deadline: Sunday, Sept. 6 at 11:59pm_
+###### _Critique deadline: Tuesday, Sept. 8 at 11:59pm_
 
 In this assignment, you'll read an introductory chapter about DSLs, which will 
 give us some shared terminology for talking about DSLs and their 
 implementations. Then you'll find a DSL "in the wild" and describe its design 
 and implementation using terminology from the reading. Finally, you'll write a
-program in a cool DSL: ContextFree.
+program in an interesting DSL: ContextFree.
 
 After this assignment, you should be able to:
 
@@ -25,7 +25,7 @@ free to talk about the assignment with anyone). For the critique part of the
 assignment, you'll pick a partner and review each other's work.
 
 ## Read up on the assignment workflow
-This [article][Assignment HOWTO] describes how we'll do our assignments on
+[This article][Assignment HOWTO] describes how we'll do our assignments on
 GitHub. Be sure to read it before you start working on your assignment.
 
 ## Read Fowler's introduction to DSLs
@@ -41,7 +41,7 @@ _<sup>1</sup> This copy of the reading is for class use only. You should not dis
  class is over._
 
 ## Find a DSL
-Find a DSL---one that you think several other people in the class *won’t* know. 
+Find a DSL---one that you think most other people in the class *won’t* know. 
 When picking a DSL, it's good to find one for which you can find a few 
 example programs, so you can get a good sense of it. Sometimes it's hard to be 
 sure whether or not a language is actually a DSL. That's okay! If you find a 
@@ -78,6 +78,26 @@ uniquely identifies this version of your program).
 
 4. Answer the questions in `context-free.md`.
 
+## Identify your peer-review partner(s)
+Your name is on the left side of this table; the person whose work you should review is on the right side of this table:
+
+| Your name   | Your critique partner's name |
+| ----------- | ---------------------------  |
+| Adam        | Daniel H.                    |
+| Alex O.     | Daniel O.                    |
+| Alex P.     | Justis                       |
+| Anna        | Matt                         |
+| Ben         | Men Cheol                    |
+| Dan W.      | Robin                        |
+| Daniel H.   | Zoab                         |
+| Daniel O.   | Adam                         |
+| Justis      | Alex O.                      |
+| Matt        | Alex P.                      |
+| Men Cheol   | Anna                         |
+| Robin       | Ben                          |
+| Zoab        | Dan W.                       |
+
+
 ## Peer-review your partner's work
 Once your partner has submitted, you can comment on their work. You should
 provide feedback on all aspects of your partner's work, including the
@@ -96,7 +116,6 @@ might add to your partner's work?
 
 ## Tasks
 
-- [ ] Identify a partner for the critique part of the assignment
 - [ ] Read the [Assignment HOWTO]
 - [ ] Read Fowler's [introduction to DSLs][Fowler]
 - [ ] Find a DSL
@@ -105,4 +124,4 @@ might add to your partner's work?
 - [ ] Make and save a pretty picture in `firstname_lastname_variant.png`
 - [ ] Answer the questions in `context-free.md`
 - [ ] Submit your work
-- [ ] Comment on your partner's work
+- [ ] Comment on your critique partner's work
