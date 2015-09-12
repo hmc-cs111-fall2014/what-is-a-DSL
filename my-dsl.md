@@ -6,13 +6,13 @@ The name of the language is django.
 
 # Domain
 _Describe the language's domain in five words._
-Web development
+Open-source rapid web application development
 
 # Computational model
 _What is the underlying computational model of this language? To answer this 
 question, provide a high-level description (no more than 100 words) of the 
 computation that occurs when someone executes a program in this language._
-When someone executes a program using Django, it is run as a Python program. When certain requests are made, the request is converted to a series of SQL statements that alter a database to follow a data model.
+When someone executes a program using Django, it is interpreted as a Python program. When certain requests are made, the request is converted to a series of SQL statements that alter a database to follow a data model.
 
 # DSL-ness
 _Fowler writes about a spectrum of languages, from general-purpose languages to 
